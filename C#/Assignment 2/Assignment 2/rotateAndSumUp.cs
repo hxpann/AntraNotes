@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment_2
 {
-    internal class rotateAndSumUp
+    internal class RotateAndSumUp
     {
-        public static int[] myrotate(int[] nums, int k)
+        public static int[] Myrotate(int[] nums, int k)
         {
             for (int i = 0; i < k; i++)
             {
@@ -23,6 +23,14 @@ namespace Assignment_2
                 Console.WriteLine(nums);
             }
             return nums;
+
+            for (int i = 0; i < nums.Length - 1; i++)
+            { 
+                int output;
+                output = nums[i] + nums[i + 1];
+                Console.WriteLine("{i} ",output);
+            }
+            Console.WriteLine(nums[nums.Length-1]+nums[0]);
 
         }
 

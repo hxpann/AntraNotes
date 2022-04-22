@@ -2,6 +2,8 @@
 using Assignment_2;
 using System.Collections.Generic;
 
+//================= Practice Arrays =========================
+
 // 1.
 //CopyArray.MyCopyArray();
 
@@ -12,4 +14,22 @@ using System.Collections.Generic;
 // CalculatePrime.FindPrimesInRange(1, 100);
 
 // 4.
-CalculatePrime.FindPrimesInRange(int 1, int 100);
+// Rotate string and sum
+
+// 5.
+// Find the longest sequence in an array
+
+// 7.Write a program that finds the most frequent number in a given sequence of numbers. In
+// case of multiple numbers with the same maximal frequency, print the leftmost of them
+
+
+//================ Practice Strings ===========================
+// 1.
+
+// 2.
+
+// 3.
+
+// 4.
+
+

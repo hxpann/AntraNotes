@@ -12,8 +12,7 @@ namespace Assignment_2
         {
             List<String> todolist = new List<String>();
 
-            while (true)
-            {
+
                 Console.WriteLine("Enter command(+ item, - item, or-- to clear)):");
                 string input = Console.ReadLine();
                 string operation = Convert.ToString(input.Substring(0, 2));
@@ -36,7 +35,7 @@ namespace Assignment_2
                     Console.WriteLine(item);
 
                 }
-            }
+            
 
 
         }

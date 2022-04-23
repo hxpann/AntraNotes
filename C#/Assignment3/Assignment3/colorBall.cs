@@ -105,5 +105,8 @@ class Ball
 
 class Program
 {
-    
+    static void Main(string[] args)
+    {
+        Color cl
+    }
 }

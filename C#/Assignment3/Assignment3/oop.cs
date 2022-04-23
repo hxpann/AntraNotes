@@ -3,13 +3,16 @@ namespace Assignment3;
 // Designing and Building Classes using object-oriented principles
 public class Person
 {
-    public string Age { get; set; }
-    private string address;
-    public string Address
-    { 
-        get { return address;}
-        private set { address = value; }
+    //private instance variables
+    private string name, address;
+
+    //Constructs a Person instance with the given name and address
+    public Person(String name, String address)
+    {
+        this.name = name;
+        this.address = address;
     }
+
     
     public string Phone { get; set; }
     public string Email { get; set; }

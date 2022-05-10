@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.bar {
+    background-image: url("https://images.unsplash.com/photo-1635831491971-bb477619dcf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80");
+    height: 100px;
+    position: relative;
+}
+
+.bar button {
+    color: white;
+    background-color: coral;
+    height: 50px;
+    width: 100px;
+    cursor:pointer;
+}
+
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+
+.allnews {
+    padding: 20px 100px;
+    background-color: lightgrey;
+}
+
+.allnews > h2 {
+    margin-bottom: 20px;
+}
+.news {
+    background-color: white;
+    float: left;
+    width: 29%;
+    height: 80%;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.news > h2, p {
+    margin: 20px;
+    font-size: 90%;
+}
+
+.title {
+    text-align: center;
+    color: blue;
+}
+
+.date {
+    text-align: right;
+}
+
+.content {
+    color: lightgrey;
+}
+
+hr {
+    margin: 20px;
+}
+
+.image {
+    text-align: center;
+}
+.image img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.page {
+    list-style-type: none;
+    padding-left: 0;
+}
+.page li {
+    display: inline;
+}
+
+.page button {
+    color: white;
+    cursor:pointer;
+    background-color: rgb(136, 136, 241);
+}
+
+.page button:hover {
+    background-color:coral;
+}
